@@ -1,0 +1,3 @@
+# CPU-Scheduler
+
+This project deals with the application of ‘Concepts of Process Management Subsystem to simulate Fair and Efficient Scheduling of processes on a CPU ‘. The simulated scheduler implements the algorithm of Round- Robin Scheduling. We carry forward our simulation by assuming that we have only a single CPU environment, which does not allow any process to run concurrently for more than one quantum; and if a process runs for more than one quantum and doesn’t complete, it is put at the end of the ready queue. Also, when a Process returns from a block state, it is also added to the back of the queue.
